@@ -1,473 +1,1007 @@
-<!-- 💎 СЕКЦИЯ ПРАЙС-ЛИСТА — ЭСТЕТИКА И ИНФОРМАЦИЯ -->
-<section id="pricing" class="pricing-collection">
-    <div class="container">
-        <div class="section-header">
-            <span class="section-subtitle">цены и абонементы</span>
-            <h2 class="section-title">Инвестиция в себя</h2>
-            <p class="section-description">
-                Прозрачные цены, гибкие абонементы и специальные условия. 
-                Выберите свой формат тренировок.
-            </p>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+    <title>Star Fit — фитнес-клуб в Светлогорске</title>
+    
+    <!-- Meta -->
+    <meta name="description" content="Star Fit: уютный фитнес-клуб с чемпионами мира. Тренажёрный зал, групповой фитнес, персональные тренировки. Светлогорск, ул. 50 лет Октября 2Б.">
+    
+    <!-- Open Graph / Instagram -->
+    <meta property="og:title" content="Star Fit — фитнес с чемпионами">
+    <meta property="og:description" content="Тренируйся с Лукьяновыми в Светлогорске. Уютно, профессионально, с душой.">
+    <meta property="og:image" content="assets/og-preview.jpg">
+    <meta property="og:url" content="https://starfit.by">
+    <meta property="og:see_also" content="https://www.instagram.com/starfit_svt">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ✨ ПРЕЛОАДЕР: МЯГКОЕ СИЯНИЕ -->
+    <div class="soft-preloader" id="preloader">
+        <div class="preloader-circle">
+            <div class="star-glow">⭐</div>
         </div>
-
-        <!-- 🎯 БЫСТРАЯ НАВИГАЦИЯ ПО ПРАЙСУ -->
-        <div class="price-nav">
-            <a href="#group-fitness" class="price-nav-item">
-                <span class="nav-icon">👥</span>
-                <span>Групповой фитнес</span>
-            </a>
-            <a href="#mix" class="price-nav-item">
-                <span class="nav-icon">🔄</span>
-                <span>Зал + Групповой</span>
-            </a>
-            <a href="#vladimir" class="price-nav-item">
-                <span class="nav-icon">🏆</span>
-                <span>С Владимиром</span>
-            </a>
-            <a href="#gym" class="price-nav-item">
-                <span class="nav-icon">🏋️</span>
-                <span>Тренажёрный зал</span>
-            </a>
-            <a href="#tatiana" class="price-nav-item">
-                <span class="nav-icon">⚡</span>
-                <span>С Татьяной</span>
-            </a>
-            <a href="#nutrition" class="price-nav-item">
-                <span class="nav-icon">🥗</span>
-                <span>Нутрициология</span>
-            </a>
+        <div class="preloader-text">
+            <span>Star</span> <span>Fit</span>
         </div>
-
-        <!-- 👥 ГРУППОВОЙ ФИТНЕС -->
-        <div id="group-fitness" class="price-category">
-            <div class="category-header">
-                <div class="category-icon">👥</div>
-                <h3>Групповой фитнес</h3>
-                <span class="category-badge">Zumba • Step • Stretching • Pilates</span>
-            </div>
-            
-            <div class="price-grid">
-                <div class="price-card trial">
-                    <div class="card-badge">Для новых клиентов</div>
-                    <h4>Пробное занятие</h4>
-                    <div class="price-value">15 ₽</div>
-                    <p class="price-desc">Знакомство с клубом и тренером</p>
-                    <div class="price-feature">
-                        <i class="fas fa-check"></i>
-                        <span>Первый шаг к новой себе</span>
-                    </div>
-                </div>
-
-                <div class="price-card single">
-                    <h4>Разовое занятие</h4>
-                    <div class="price-value">25 ₽</div>
-                    <p class="price-desc">Гостевой визит</p>
-                    <div class="price-feature">
-                        <i class="fas fa-clock"></i>
-                        <span>55 минут</span>
-                    </div>
-                </div>
-
-                <div class="price-card package">
-                    <h4>Абонемент «Старт»</h4>
-                    <div class="price-value">80 ₽</div>
-                    <div class="price-count">4 занятия</div>
-                    <div class="price-save">Экономия 20 ₽</div>
-                    <div class="price-feature">
-                        <i class="fas fa-calendar-alt"></i>
-                        <span>Срок: 30 дней</span>
-                    </div>
-                </div>
-
-                <div class="price-card package popular">
-                    <div class="card-badge">🔥 Самый популярный</div>
-                    <h4>Абонемент «Оптимум»</h4>
-                    <div class="price-value">100 ₽</div>
-                    <div class="price-count">8 занятий</div>
-                    <div class="price-save">Экономия 100 ₽</div>
-                    <div class="price-feature">
-                        <i class="fas fa-calendar-alt"></i>
-                        <span>Срок: 45 дней</span>
-                    </div>
-                </div>
-
-                <div class="price-card package">
-                    <h4>Абонемент «Максимум»</h4>
-                    <div class="price-value">120 ₽</div>
-                    <div class="price-count">12 занятий</div>
-                    <div class="price-save">Экономия 180 ₽</div>
-                    <div class="price-feature">
-                        <i class="fas fa-calendar-alt"></i>
-                        <span>Срок: 60 дней</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- 🔄 ГРУППОВОЙ ФИТНЕС + ТРЕНАЖЁРНЫЙ ЗАЛ (МИКС) -->
-        <div id="mix" class="price-category premium">
-            <div class="category-header">
-                <div class="category-icon">🔄</div>
-                <h3>Фулл-формат</h3>
-                <span class="category-badge">Групповой + Тренажёрный зал</span>
-            </div>
-            
-            <div class="price-grid">
-                <div class="price-card single">
-                    <h4>Разовое посещение</h4>
-                    <div class="price-value">30 ₽</div>
-                    <p class="price-desc">Весь клуб в твоём распоряжении</p>
-                </div>
-
-                <div class="price-card package">
-                    <h4>Абонемент «Лайт»</h4>
-                    <div class="price-value">100 ₽</div>
-                    <div class="price-count">4 занятия</div>
-                    <div class="price-save">Экономия 20 ₽</div>
-                </div>
-
-                <div class="price-card package popular">
-                    <div class="card-badge">⭐ Выбор профи</div>
-                    <h4>Абонемент «Профи»</h4>
-                    <div class="price-value">130 ₽</div>
-                    <div class="price-count">8 занятий</div>
-                    <div class="price-save">Экономия 110 ₽</div>
-                </div>
-
-                <div class="price-card package">
-                    <h4>Абонемент «Премиум»</h4>
-                    <div class="price-value">160 ₽</div>
-                    <div class="price-count">12 занятий</div>
-                    <div class="price-save">Экономия 200 ₽</div>
-                </div>
-            </div>
-            
-            <div class="category-note">
-                <i class="fas fa-star"></i>
-                <span>Идеально для тех, кто хочет совмещать кардио и силовые</span>
-            </div>
-        </div>
-
-        <!-- 🏆 АБОНЕМЕНТ С ВЛАДИМИРОМ (ЧЕМПИОН МИРА) -->
-        <div id="vladimir" class="price-category champion">
-            <div class="category-header">
-                <div class="category-icon">🏆</div>
-                <h3>Персональные тренировки с Владимиром Лукьяновым</h3>
-                <span class="category-badge">МСМК • Чемпион мира • Судья нац. категории</span>
-            </div>
-            
-            <div class="champion-showcase">
-                <div class="champion-banner">
-                    <div class="banner-content">
-                        <span class="banner-tag">⚡ ВКЛЮЧЕНО ⚡</span>
-                        <h4>Абонемент тренажёрного зала — БЕСПЛАТНО</h4>
-                        <p>При покупке любого абонемента с Владимиром</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="price-grid">
-                <div class="price-card single champion-card">
-                    <h4>Индивидуальная тренировка</h4>
-                    <div class="price-value">40 ₽</div>
-                    <p class="price-desc">60 минут с чемпионом мира</p>
-                    <div class="price-feature">
-                        <i class="fas fa-check"></i>
-                        <span>Зал включён</span>
-                    </div>
-                </div>
-
-                <div class="price-card package champion-card">
-                    <h4>Абонемент «Старт»</h4>
-                    <div class="price-value">140 ₽</div>
-                    <div class="price-count">4 тренировки</div>
-                    <div class="price-save">Экономия 60 ₽ + зал</div>
-                    <div class="price-bonus">🎁 +1 бесплатно</div>
-                </div>
-
-                <div class="price-card package champion-card popular">
-                    <div class="card-badge">💎 ТОП-ПРОДАЖ</div>
-                    <h4>Абонемент «Оптимум»</h4>
-                    <div class="price-value">210 ₽</div>
-                    <div class="price-count">8 тренировок</div>
-                    <div class="price-save">Экономия 130 ₽ + зал</div>
-                    <div class="price-bonus">🎁 +2 бесплатно</div>
-                </div>
-
-                <div class="price-card package champion-card">
-                    <h4>Абонемент «Максимум»</h4>
-                    <div class="price-value">260 ₽</div>
-                    <div class="price-count">12 тренировок</div>
-                    <div class="price-save">Экономия 240 ₽ + зал</div>
-                    <div class="price-bonus">🎁 +3 бесплатно</div>
-                </div>
-            </div>
-            
-            <div class="category-note highlight">
-                <i class="fas fa-crown"></i>
-                <div>
-                    <strong>Составление индивидуальной программы — 40 ₽</strong>
-                    <span>Персональный план тренировок от чемпиона мира</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- 🏋️ ТРЕНАЖЁРНЫЙ ЗАЛ (С ДИФФЕРЕНЦИАЦИЕЙ ПО ВРЕМЕНИ) -->
-        <div id="gym" class="price-category">
-            <div class="category-header">
-                <div class="category-icon">🏋️</div>
-                <h3>Тренажёрный зал</h3>
-                <span class="category-badge">Life Fitness • Hammer Strength • Свободные веса</span>
-            </div>
-            
-            <div class="time-split-grid">
-                <!-- УТРЕННИЙ ТАРИФ -->
-                <div class="time-zone morning">
-                    <div class="time-zone-header">
-                        <i class="fas fa-sun"></i>
-                        <h4>Утро / День</h4>
-                        <span class="time-badge">09:00 — 12:00</span>
-                    </div>
-                    
-                    <div class="time-prices">
-                        <div class="time-price-item">
-                            <span class="price-label">Разово</span>
-                            <span class="price-amount">15 ₽</span>
-                        </div>
-                        <div class="time-price-item">
-                            <span class="price-label">4 занятия</span>
-                            <span class="price-amount">50 ₽</span>
-                            <span class="price-save-small">−10 ₽</span>
-                        </div>
-                        <div class="time-price-item">
-                            <span class="price-label">8 занятий</span>
-                            <span class="price-amount">70 ₽</span>
-                            <span class="price-save-small">−50 ₽</span>
-                        </div>
-                        <div class="time-price-item">
-                            <span class="price-label">12 занятий</span>
-                            <span class="price-amount">80 ₽</span>
-                            <span class="price-save-small">−100 ₽</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- ВЕЧЕРНИЙ ТАРИФ -->
-                <div class="time-zone evening">
-                    <div class="time-zone-header">
-                        <i class="fas fa-moon"></i>
-                        <h4>Вечер</h4>
-                        <span class="time-badge">17:00 — 21:00</span>
-                    </div>
-                    
-                    <div class="time-prices">
-                        <div class="time-price-item">
-                            <span class="price-label">Разово</span>
-                            <span class="price-amount">20 ₽</span>
-                        </div>
-                        <div class="time-price-item">
-                            <span class="price-label">4 занятия</span>
-                            <span class="price-amount">60 ₽</span>
-                            <span class="price-save-small">−20 ₽</span>
-                        </div>
-                        <div class="time-price-item">
-                            <span class="price-label">8 занятий</span>
-                            <span class="price-amount">80 ₽</span>
-                            <span class="price-save-small">−80 ₽</span>
-                        </div>
-                        <div class="time-price-item">
-                            <span class="price-label">12 занятий</span>
-                            <span class="price-amount">90 ₽</span>
-                            <span class="price-save-small">−150 ₽</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- БЕЗЛИМИТ И СКИДКИ -->
-            <div class="gym-specials">
-                <div class="special-card unlimited">
-                    <div class="special-icon">♾️</div>
-                    <div class="special-content">
-                        <h4>Безлимитный абонемент</h4>
-                        <div class="special-price">100 ₽ / месяц</div>
-                        <p>Неограниченное количество посещений в часы работы</p>
-                    </div>
-                </div>
-                
-                <div class="special-card student">
-                    <div class="special-icon">🎓</div>
-                    <div class="special-content">
-                        <h4>Школьникам и студентам</h4>
-                        <div class="special-discount">−30%</div>
-                        <p>При предъявлении студенческого билета</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ⚡ ПЕРСОНАЛЬНЫЕ ТРЕНИРОВКИ С ТАТЬЯНОЙ -->
-        <div id="tatiana" class="price-category signature">
-            <div class="category-header">
-                <div class="category-icon">⚡</div>
-                <h3>Персональные тренировки с Татьяной</h3>
-                <span class="category-badge">Эксперт по технике • Силовая трансформация</span>
-            </div>
-            
-            <div class="signature-showcase">
-                <div class="signature-card">
-                    <div class="signature-price-tag">
-                        <span class="big-price">40 ₽</span>
-                        <span class="price-period">/ занятие</span>
-                    </div>
-                    
-                    <div class="signature-features">
-                        <div class="sig-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Индивидуальный подход</span>
-                        </div>
-                        <div class="sig-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Постановка идеальной техники</span>
-                        </div>
-                        <div class="sig-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Силовая трансформация</span>
-                        </div>
-                        <div class="sig-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Коррекция фигуры</span>
-                        </div>
-                    </div>
-                    
-                    <div class="signature-note">
-                        <i class="fas fa-clock"></i>
-                        <span>Время тренировки согласовывается индивидуально</span>
-                    </div>
-                    
-                    <div class="signature-bonus">
-                        <i class="fas fa-gift"></i>
-                        <span>Первая тренировка — консультация по технике (30 мин) бесплатно</span>
-                    </div>
-                </div>
-                
-                <div class="signature-testimonial">
-                    <i class="fas fa-quote-left"></i>
-                    <p>"Татьяна видит то, что не видят другие. Исправила мою технику приседа за 15 минут — теперь колени не болят, а вес растёт."</p>
-                    <span class="testimonial-author">— Дмитрий, клиент</span>
-                </div>
-            </div>
-            
-            <div class="category-note elegant">
-                <i class="fas fa-star"></i>
-                <span>Специализация: работа с начинающими, восстановление после травм, женский фитнес</span>
-            </div>
-        </div>
-
-        <!-- 🥗 НУТРИЦИОЛОГИЯ -->
-        <div id="nutrition" class="price-category wellness">
-            <div class="category-header">
-                <div class="category-icon">🥗</div>
-                <h3>Правильное питание</h3>
-                <span class="category-badge">Нутрициология • Расчёт калорийности • Меню</span>
-            </div>
-            
-            <div class="nutrition-grid">
-                <div class="nutrition-card">
-                    <div class="nutrition-icon">📊</div>
-                    <h4>Экспресс-расчёт</h4>
-                    <div class="nutrition-price">40 ₽</div>
-                    <p class="nutrition-period">14 дней</p>
-                    <ul class="nutrition-features">
-                        <li><i class="fas fa-check"></i> Индивидуальный расчёт КБЖУ</li>
-                        <li><i class="fas fa-check"></i> Рекомендации по продуктам</li>
-                        <li><i class="fas fa-check"></i> Чек-лист для магазина</li>
-                        <li><i class="fas fa-check"></i> Поддержка в мессенджере</li>
-                    </ul>
-                </div>
-                
-                <div class="nutrition-card popular">
-                    <div class="card-badge">🌟 Максимум пользы</div>
-                    <div class="nutrition-icon">📚</div>
-                    <h4>Полное сопровождение</h4>
-                    <div class="nutrition-price">60 ₽</div>
-                    <p class="nutrition-period">1 месяц</p>
-                    <ul class="nutrition-features">
-                        <li><i class="fas fa-check"></i> Индивидуальный план питания</li>
-                        <li><i class="fas fa-check"></i> Готовое меню на неделю</li>
-                        <li><i class="fas fa-check"></i> Корректировка по результатам</li>
-                        <li><i class="fas fa-check"></i> Рецепты ПП-блюд</li>
-                        <li><i class="fas fa-check"></i> Еженедельный отчёт</li>
-                        <li><i class="fas fa-check"></i> 24/7 поддержка</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="nutrition-bundle">
-                <div class="bundle-content">
-                    <i class="fas fa-gem"></i>
-                    <div>
-                        <h4>Комплекс «Фитнес + Питание»</h4>
-                        <p>Абонемент в тренажёрный зал (8 посещений) + месячный план питания</p>
-                        <span class="bundle-price">150 ₽</span>
-                        <span class="bundle-old">190 ₽</span>
-                        <span class="bundle-save">Экономия 40 ₽</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ⏰ РЕЖИМ РАБОТЫ (ОБНОВЛЁННЫЙ) -->
-        <div class="working-hours-block">
-            <div class="hours-header">
-                <i class="fas fa-clock"></i>
-                <h3>Режим работы</h3>
-            </div>
-            
-            <div class="hours-grid-detailed">
-                <div class="hours-day">
-                    <span class="day-name">Понедельник — Пятница</span>
-                    <div class="day-schedule">
-                        <span class="time-slot">09:00 — 12:00</span>
-                        <span class="time-slot">17:00 — 21:00</span>
-                    </div>
-                </div>
-                
-                <div class="hours-day">
-                    <span class="day-name">Суббота</span>
-                    <div class="day-schedule">
-                        <span class="time-slot">10:00 — 13:00</span>
-                        <span class="time-slot">17:00 — 21:00</span>
-                    </div>
-                </div>
-                
-                <div class="hours-day">
-                    <span class="day-name">Воскресенье</span>
-                    <div class="day-schedule">
-                        <span class="time-slot holiday">Выходной</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="hours-note">
-                <i class="fas fa-info-circle"></i>
-                <span>Абонементы действуют в часы работы клуба</span>
-            </div>
-        </div>
-
-        <!-- 💎 ИТОГОВЫЙ БЛОК ПРЕИМУЩЕСТВ -->
-        <div class="pricing-footer">
-            <div class="guarantee-badge">
-                <i class="fas fa-shield-alt"></i>
-                <span>Прозрачные цены без скрытых платежей</span>
-            </div>
-            <div class="payment-methods">
-                <span>Принимаем к оплате:</span>
-                <i class="fab fa-cc-visa"></i>
-                <i class="fab fa-cc-mastercard"></i>
-                <i class="fas fa-money-bill-wave"></i>
-                <i class="fas fa-mobile-alt"></i>
-            </div>
+        <div class="preloader-sub">
+            фитнес с душой
         </div>
     </div>
-</section>
+
+    <!-- 🍃 ПЛАВНЫЙ ГРАДИЕНТНЫЙ ФОН -->
+    <div class="gentle-bg">
+        <div class="gradient-sphere sphere-1"></div>
+        <div class="gradient-sphere sphere-2"></div>
+        <div class="gradient-sphere sphere-3"></div>
+        <div class="noise"></div>
+    </div>
+
+    <!-- 🕊️ САЙДБАР -->
+    <div class="elegant-sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-logo">
+                <span class="logo-star">⭐</span>
+                <span class="logo-text">Star Fit</span>
+            </div>
+            <button class="sidebar-close" id="sidebarClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <nav class="sidebar-nav">
+            <a href="#hero" class="nav-link">
+                <i class="fas fa-home"></i>
+                <span>Главная</span>
+            </a>
+            <a href="#trainers" class="nav-link">
+                <i class="fas fa-users"></i>
+                <span>Наши тренеры</span>
+            </a>
+            <a href="#pricing" class="nav-link">
+                <i class="fas fa-tags"></i>
+                <span>Цены и абонементы</span>
+            </a>
+            <a href="#contacts" class="nav-link">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Контакты</span>
+            </a>
+            <a href="#booking" class="nav-link">
+                <i class="fas fa-edit"></i>
+                <span>Записаться</span>
+            </a>
+        </nav>
+        
+        <div class="sidebar-social">
+            <a href="https://www.instagram.com/starfit_svt" target="_blank" class="social-link">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://t.me/starfit_svt" target="_blank" class="social-link">
+                <i class="fab fa-telegram"></i>
+            </a>
+            <a href="viber://chat?number=%2B375296344664" target="_blank" class="social-link">
+                <i class="fab fa-viber"></i>
+            </a>
+        </div>
+        
+        <div class="sidebar-quote">
+            "Фитнес начинается с уюта"
+        </div>
+    </div>
+
+    <!-- 🕊️ ХЕДЕР -->
+    <header class="soft-header">
+        <div class="header-container">
+            <button class="menu-button" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <div class="header-logo">
+                <span class="logo-star">⭐</span>
+                <span class="logo-text">Star Fit</span>
+            </div>
+            
+            <a href="https://www.instagram.com/starfit_svt" target="_blank" class="header-instagram">
+                <i class="fab fa-instagram"></i>
+                <span>starfit_svt</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- 🌸 HERO СЕКЦИЯ -->
+    <section id="hero" class="gentle-hero">
+        <div class="hero-pattern"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                фитнес-клуб в Светлогорске
+            </div>
+            
+            <h1 class="hero-title">
+                <span class="title-line">Тренируйся с</span>
+                <span class="title-line highlight">чемпионами мира</span>
+            </h1>
+            
+            <p class="hero-description">
+                Владимир, Яна и Татьяна Лукьяновы — Международные Мастера Спорта, 
+                чемпионы Европы и мира. Теперь они тренируют в Star Fit.
+            </p>
+            
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">лет опыта</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">чемпионов</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">легенды спорта</div>
+                </div>
+            </div>
+            
+            <div class="hero-buttons">
+                <a href="#booking" class="btn btn-primary">
+                    <span>Записаться на тренировку</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#pricing" class="btn btn-outline">
+                    <span>Цены и абонементы</span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="hero-decor">
+            <div class="decor-circle circle-1"></div>
+            <div class="decor-circle circle-2"></div>
+            <div class="decor-circle circle-3"></div>
+        </div>
+    </section>
+
+    <!-- 🏆 СЕКЦИЯ ТРЕНЕРОВ (ЛУКЬЯНОВЫ) -->
+    <section id="trainers" class="trainer-showcase">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">элитный состав</span>
+                <h2 class="section-title">Наши тренеры</h2>
+                <p class="section-description">
+                    Семья чемпионов, которая воспитала не одно поколение спортсменов
+                </p>
+            </div>
+
+            <!-- Владимир Лукьянов -->
+            <div class="trainer-card featured">
+                <div class="trainer-image-container">
+                    <div class="image-frame">
+                        <div class="image-placeholder" id="trainer-placeholder-vladimir">
+                            <span class="placeholder-icon">🏆</span>
+                            <span class="placeholder-text">Владимир Лукьянов</span>
+                        </div>
+                        <img id="trainer-img-vladimir" class="trainer-photo" src="" alt="Владимир Лукьянов" style="display: none;">
+                        <div class="upload-overlay" data-trainer="vladimir">
+                            <i class="fas fa-camera"></i>
+                            <span>Загрузить фото</span>
+                            <input type="file" accept="image/*" class="hidden-input" id="upload-vladimir">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="trainer-content">
+                    <div class="trainer-badge">Международный Мастер Спорта</div>
+                    <h3 class="trainer-name">Владимир Лукьянов</h3>
+                    <div class="trainer-title">Пауэрлифтинг • Тренер высшей категории</div>
+                    
+                    <div class="achievement-grid">
+                        <div class="achievement">
+                            <span class="achievement-icon">🌍</span>
+                            <span class="achievement-text">Чемпион Мира</span>
+                        </div>
+                        <div class="achievement">
+                            <span class="achievement-icon">🇪🇺</span>
+                            <span class="achievement-text">Чемпион Европы</span>
+                        </div>
+                        <div class="achievement">
+                            <span class="achievement-icon">🌏</span>
+                            <span class="achievement-text">Чемпион Евразии</span>
+                        </div>
+                        <div class="achievement">
+                            <span class="achievement-icon">🇧🇾</span>
+                            <span class="achievement-text">7× Чемпион РБ</span>
+                        </div>
+                    </div>
+                    
+                    <ul class="trainer-features">
+                        <li><i class="fas fa-shield"></i> Судья Национальной категории</li>
+                        <li><i class="fas fa-trophy"></i> Подготовил 10+ мастеров спорта</li>
+                        <li><i class="fas fa-star"></i> Стаж: 15 лет</li>
+                    </ul>
+                    
+                    <a href="#booking" class="btn-trainer" data-trainer="vladimir">
+                        Записаться к Владимиру
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Яна Лукьянова -->
+            <div class="trainer-card">
+                <div class="trainer-image-container">
+                    <div class="image-frame">
+                        <div class="image-placeholder" id="trainer-placeholder-yana">
+                            <span class="placeholder-icon">🌸</span>
+                            <span class="placeholder-text">Яна Лукьянова</span>
+                        </div>
+                        <img id="trainer-img-yana" class="trainer-photo" src="" alt="Яна Лукьянова" style="display: none;">
+                        <div class="upload-overlay" data-trainer="yana">
+                            <i class="fas fa-camera"></i>
+                            <span>Загрузить фото</span>
+                            <input type="file" accept="image/*" class="hidden-input" id="upload-yana">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="trainer-content">
+                    <div class="trainer-badge">Фитнес-трансформация</div>
+                    <h3 class="trainer-name">Яна Лукьянова</h3>
+                    <div class="trainer-title">Персональный фитнес • Нутрициолог</div>
+                    
+                    <div class="testimonial-mini">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Яна помогла мне полюбить своё тело. После родов я чувствую себя лучше, чем в 20 лет!"</p>
+                        <span class="testimonial-author">— Елена, клиент</span>
+                    </div>
+                    
+                    <div class="stats-mini">
+                        <div class="stat-item">
+                            <span class="stat-highlight">-30 кг</span>
+                            <span class="stat-label">максимум</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-highlight">100+</span>
+                            <span class="stat-label">клиентов</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-highlight">8 лет</span>
+                            <span class="stat-label">практики</span>
+                        </div>
+                    </div>
+                    
+                    <ul class="trainer-features">
+                        <li><i class="fas fa-heart"></i> Восстановление после родов</li>
+                        <li><i class="fas fa-brain"></i> Психология питания</li>
+                        <li><i class="fas fa-leaf"></i> Без жёстких диет</li>
+                    </ul>
+                    
+                    <a href="#booking" class="btn-trainer" data-trainer="yana">
+                        Записаться к Яне
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Татьяна Лукьянова -->
+            <div class="trainer-card">
+                <div class="trainer-image-container">
+                    <div class="image-frame">
+                        <div class="image-placeholder" id="trainer-placeholder-tatiana">
+                            <span class="placeholder-icon">🎵</span>
+                            <span class="placeholder-text">Татьяна Лукьянова</span>
+                        </div>
+                        <img id="trainer-img-tatiana" class="trainer-photo" src="" alt="Татьяна Лукьянова" style="display: none;">
+                        <div class="upload-overlay" data-trainer="tatiana">
+                            <i class="fas fa-camera"></i>
+                            <span>Загрузить фото</span>
+                            <input type="file" accept="image/*" class="hidden-input" id="upload-tatiana">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="trainer-content">
+                    <div class="trainer-badge">Групповой фитнес</div>
+                    <h3 class="trainer-name">Татьяна Лукьянова</h3>
+                    <div class="trainer-title">Zumba • Step • Stretching • Нутрициология</div>
+                    
+                    <div class="testimonial-mini">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Татьяна заряжает энергией! После её тренировок хочется жить, творить и улыбаться."</p>
+                        <span class="testimonial-author">— Андрей, клиент</span>
+                    </div>
+                    
+                    <div class="tags-group">
+                        <span class="tag">ZUMBA</span>
+                        <span class="tag">STEP</span>
+                        <span class="tag">STRETCH</span>
+                        <span class="tag">PILATES</span>
+                        <span class="tag">BODY SCULPT</span>
+                    </div>
+                    
+                    <ul class="trainer-features">
+                        <li><i class="fas fa-spine"></i> Здоровье спины</li>
+                        <li><i class="fas fa-apple-alt"></i> План питания</li>
+                        <li><i class="fas fa-users"></i> Семейные тренировки</li>
+                    </ul>
+                    
+                    <a href="#booking" class="btn-trainer" data-trainer="tatiana">
+                        Записаться к Татьяне
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 💎 СЕКЦИЯ ПРАЙС-ЛИСТА -->
+    <section id="pricing" class="pricing-collection">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">цены и абонементы</span>
+                <h2 class="section-title">Инвестиция в себя</h2>
+                <p class="section-description">
+                    Прозрачные цены, гибкие абонементы и специальные условия. 
+                    Выберите свой формат тренировок.
+                </p>
+            </div>
+
+            <!-- БЫСТРАЯ НАВИГАЦИЯ ПО ПРАЙСУ -->
+            <div class="price-nav">
+                <a href="#group-fitness" class="price-nav-item">
+                    <span class="nav-icon">👥</span>
+                    <span>Групповой фитнес</span>
+                </a>
+                <a href="#mix" class="price-nav-item">
+                    <span class="nav-icon">🔄</span>
+                    <span>Зал + Групповой</span>
+                </a>
+                <a href="#vladimir" class="price-nav-item">
+                    <span class="nav-icon">🏆</span>
+                    <span>С Владимиром</span>
+                </a>
+                <a href="#gym" class="price-nav-item">
+                    <span class="nav-icon">🏋️</span>
+                    <span>Тренажёрный зал</span>
+                </a>
+                <a href="#tatiana" class="price-nav-item">
+                    <span class="nav-icon">⚡</span>
+                    <span>С Татьяной</span>
+                </a>
+                <a href="#nutrition" class="price-nav-item">
+                    <span class="nav-icon">🥗</span>
+                    <span>Нутрициология</span>
+                </a>
+            </div>
+
+            <!-- 👥 ГРУППОВОЙ ФИТНЕС -->
+            <div id="group-fitness" class="price-category">
+                <div class="category-header">
+                    <div class="category-icon">👥</div>
+                    <h3>Групповой фитнес</h3>
+                    <span class="category-badge">Zumba • Step • Stretching • Pilates</span>
+                </div>
+                
+                <div class="price-grid">
+                    <div class="price-card trial">
+                        <div class="card-badge">Для новых клиентов</div>
+                        <h4>Пробное занятие</h4>
+                        <div class="price-value">15 ₽</div>
+                        <p class="price-desc">Знакомство с клубом и тренером</p>
+                    </div>
+
+                    <div class="price-card single">
+                        <h4>Разовое занятие</h4>
+                        <div class="price-value">25 ₽</div>
+                        <p class="price-desc">Гостевой визит</p>
+                    </div>
+
+                    <div class="price-card package">
+                        <h4>Абонемент «Старт»</h4>
+                        <div class="price-value">80 ₽</div>
+                        <div class="price-count">4 занятия</div>
+                        <div class="price-save">Экономия 20 ₽</div>
+                    </div>
+
+                    <div class="price-card package popular">
+                        <div class="card-badge">🔥 Самый популярный</div>
+                        <h4>Абонемент «Оптимум»</h4>
+                        <div class="price-value">100 ₽</div>
+                        <div class="price-count">8 занятий</div>
+                        <div class="price-save">Экономия 100 ₽</div>
+                    </div>
+
+                    <div class="price-card package">
+                        <h4>Абонемент «Максимум»</h4>
+                        <div class="price-value">120 ₽</div>
+                        <div class="price-count">12 занятий</div>
+                        <div class="price-save">Экономия 180 ₽</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 🔄 ГРУППОВОЙ ФИТНЕС + ТРЕНАЖЁРНЫЙ ЗАЛ -->
+            <div id="mix" class="price-category premium">
+                <div class="category-header">
+                    <div class="category-icon">🔄</div>
+                    <h3>Фулл-формат</h3>
+                    <span class="category-badge">Групповой + Тренажёрный зал</span>
+                </div>
+                
+                <div class="price-grid">
+                    <div class="price-card single">
+                        <h4>Разовое посещение</h4>
+                        <div class="price-value">30 ₽</div>
+                        <p class="price-desc">Весь клуб в твоём распоряжении</p>
+                    </div>
+
+                    <div class="price-card package">
+                        <h4>Абонемент «Лайт»</h4>
+                        <div class="price-value">100 ₽</div>
+                        <div class="price-count">4 занятия</div>
+                        <div class="price-save">Экономия 20 ₽</div>
+                    </div>
+
+                    <div class="price-card package popular">
+                        <div class="card-badge">⭐ Выбор профи</div>
+                        <h4>Абонемент «Профи»</h4>
+                        <div class="price-value">130 ₽</div>
+                        <div class="price-count">8 занятий</div>
+                        <div class="price-save">Экономия 110 ₽</div>
+                    </div>
+
+                    <div class="price-card package">
+                        <h4>Абонемент «Премиум»</h4>
+                        <div class="price-value">160 ₽</div>
+                        <div class="price-count">12 занятий</div>
+                        <div class="price-save">Экономия 200 ₽</div>
+                    </div>
+                </div>
+                
+                <div class="category-note">
+                    <i class="fas fa-star"></i>
+                    <span>Идеально для тех, кто хочет совмещать кардио и силовые</span>
+                </div>
+            </div>
+
+            <!-- 🏆 АБОНЕМЕНТ С ВЛАДИМИРОМ -->
+            <div id="vladimir" class="price-category champion">
+                <div class="category-header">
+                    <div class="category-icon">🏆</div>
+                    <h3>Персональные тренировки с Владимиром Лукьяновым</h3>
+                    <span class="category-badge">МСМК • Чемпион мира • Судья нац. категории</span>
+                </div>
+                
+                <div class="champion-showcase">
+                    <div class="champion-banner">
+                        <div class="banner-content">
+                            <span class="banner-tag">⚡ ВКЛЮЧЕНО ⚡</span>
+                            <h4>Абонемент тренажёрного зала — БЕСПЛАТНО</h4>
+                            <p>При покупке любого абонемента с Владимиром</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="price-grid">
+                    <div class="price-card single champion-card">
+                        <h4>Индивидуальная тренировка</h4>
+                        <div class="price-value">40 ₽</div>
+                        <p class="price-desc">60 минут с чемпионом мира</p>
+                        <div class="price-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Зал включён</span>
+                        </div>
+                    </div>
+
+                    <div class="price-card package champion-card">
+                        <h4>Абонемент «Старт»</h4>
+                        <div class="price-value">140 ₽</div>
+                        <div class="price-count">4 тренировки</div>
+                        <div class="price-save">Экономия 60 ₽ + зал</div>
+                        <div class="price-bonus">🎁 +1 бесплатно</div>
+                    </div>
+
+                    <div class="price-card package champion-card popular">
+                        <div class="card-badge">💎 ТОП-ПРОДАЖ</div>
+                        <h4>Абонемент «Оптимум»</h4>
+                        <div class="price-value">210 ₽</div>
+                        <div class="price-count">8 тренировок</div>
+                        <div class="price-save">Экономия 130 ₽ + зал</div>
+                        <div class="price-bonus">🎁 +2 бесплатно</div>
+                    </div>
+
+                    <div class="price-card package champion-card">
+                        <h4>Абонемент «Максимум»</h4>
+                        <div class="price-value">260 ₽</div>
+                        <div class="price-count">12 тренировок</div>
+                        <div class="price-save">Экономия 240 ₽ + зал</div>
+                        <div class="price-bonus">🎁 +3 бесплатно</div>
+                    </div>
+                </div>
+                
+                <div class="category-note highlight">
+                    <i class="fas fa-crown"></i>
+                    <div>
+                        <strong>Составление индивидуальной программы — 40 ₽</strong>
+                        <span>Персональный план тренировок от чемпиона мира</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 🏋️ ТРЕНАЖЁРНЫЙ ЗАЛ -->
+            <div id="gym" class="price-category">
+                <div class="category-header">
+                    <div class="category-icon">🏋️</div>
+                    <h3>Тренажёрный зал</h3>
+                    <span class="category-badge">Life Fitness • Hammer Strength • Свободные веса</span>
+                </div>
+                
+                <div class="time-split-grid">
+                    <div class="time-zone morning">
+                        <div class="time-zone-header">
+                            <i class="fas fa-sun"></i>
+                            <h4>Утро / День</h4>
+                            <span class="time-badge">09:00 — 12:00</span>
+                        </div>
+                        
+                        <div class="time-prices">
+                            <div class="time-price-item">
+                                <span class="price-label">Разово</span>
+                                <span class="price-amount">15 ₽</span>
+                            </div>
+                            <div class="time-price-item">
+                                <span class="price-label">4 занятия</span>
+                                <span class="price-amount">50 ₽</span>
+                                <span class="price-save-small">−10 ₽</span>
+                            </div>
+                            <div class="time-price-item">
+                                <span class="price-label">8 занятий</span>
+                                <span class="price-amount">70 ₽</span>
+                                <span class="price-save-small">−50 ₽</span>
+                            </div>
+                            <div class="time-price-item">
+                                <span class="price-label">12 занятий</span>
+                                <span class="price-amount">80 ₽</span>
+                                <span class="price-save-small">−100 ₽</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="time-zone evening">
+                        <div class="time-zone-header">
+                            <i class="fas fa-moon"></i>
+                            <h4>Вечер</h4>
+                            <span class="time-badge">17:00 — 21:00</span>
+                        </div>
+                        
+                        <div class="time-prices">
+                            <div class="time-price-item">
+                                <span class="price-label">Разово</span>
+                                <span class="price-amount">20 ₽</span>
+                            </div>
+                            <div class="time-price-item">
+                                <span class="price-label">4 занятия</span>
+                                <span class="price-amount">60 ₽</span>
+                                <span class="price-save-small">−20 ₽</span>
+                            </div>
+                            <div class="time-price-item">
+                                <span class="price-label">8 занятий</span>
+                                <span class="price-amount">80 ₽</span>
+                                <span class="price-save-small">−80 ₽</span>
+                            </div>
+                            <div class="time-price-item">
+                                <span class="price-label">12 занятий</span>
+                                <span class="price-amount">90 ₽</span>
+                                <span class="price-save-small">−150 ₽</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gym-specials">
+                    <div class="special-card unlimited">
+                        <div class="special-icon">♾️</div>
+                        <div class="special-content">
+                            <h4>Безлимитный абонемент</h4>
+                            <div class="special-price">100 ₽ / месяц</div>
+                            <p>Неограниченное количество посещений в часы работы</p>
+                        </div>
+                    </div>
+                    
+                    <div class="special-card student">
+                        <div class="special-icon">🎓</div>
+                        <div class="special-content">
+                            <h4>Школьникам и студентам</h4>
+                            <div class="special-discount">−30%</div>
+                            <p>При предъявлении студенческого билета</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ⚡ ПЕРСОНАЛЬНЫЕ ТРЕНИРОВКИ С ТАТЬЯНОЙ -->
+            <div id="tatiana" class="price-category signature">
+                <div class="category-header">
+                    <div class="category-icon">⚡</div>
+                    <h3>Персональные тренировки с Татьяной</h3>
+                    <span class="category-badge">Эксперт по технике • Силовая трансформация</span>
+                </div>
+                
+                <div class="signature-showcase">
+                    <div class="signature-card">
+                        <div class="signature-price-tag">
+                            <span class="big-price">40 ₽</span>
+                            <span class="price-period">/ занятие</span>
+                        </div>
+                        
+                        <div class="signature-features">
+                            <div class="sig-feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Индивидуальный подход</span>
+                            </div>
+                            <div class="sig-feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Постановка идеальной техники</span>
+                            </div>
+                            <div class="sig-feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Силовая трансформация</span>
+                            </div>
+                            <div class="sig-feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Коррекция фигуры</span>
+                            </div>
+                        </div>
+                        
+                        <div class="signature-note">
+                            <i class="fas fa-clock"></i>
+                            <span>Время тренировки согласовывается индивидуально</span>
+                        </div>
+                        
+                        <div class="signature-bonus">
+                            <i class="fas fa-gift"></i>
+                            <span>Первая тренировка — консультация по технике (30 мин) бесплатно</span>
+                        </div>
+                    </div>
+                    
+                    <div class="signature-testimonial">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Татьяна видит то, что не видят другие. Исправила мою технику приседа за 15 минут — теперь колени не болят, а вес растёт."</p>
+                        <span class="testimonial-author">— Дмитрий, клиент</span>
+                    </div>
+                </div>
+                
+                <div class="category-note elegant">
+                    <i class="fas fa-star"></i>
+                    <span>Специализация: работа с начинающими, восстановление после травм, женский фитнес</span>
+                </div>
+            </div>
+
+            <!-- 🥗 НУТРИЦИОЛОГИЯ -->
+            <div id="nutrition" class="price-category wellness">
+                <div class="category-header">
+                    <div class="category-icon">🥗</div>
+                    <h3>Правильное питание</h3>
+                    <span class="category-badge">Нутрициология • Расчёт калорийности • Меню</span>
+                </div>
+                
+                <div class="nutrition-grid">
+                    <div class="nutrition-card">
+                        <div class="nutrition-icon">📊</div>
+                        <h4>Экспресс-расчёт</h4>
+                        <div class="nutrition-price">40 ₽</div>
+                        <p class="nutrition-period">14 дней</p>
+                        <ul class="nutrition-features">
+                            <li><i class="fas fa-check"></i> Индивидуальный расчёт КБЖУ</li>
+                            <li><i class="fas fa-check"></i> Рекомендации по продуктам</li>
+                            <li><i class="fas fa-check"></i> Чек-лист для магазина</li>
+                            <li><i class="fas fa-check"></i> Поддержка в мессенджере</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="nutrition-card popular">
+                        <div class="card-badge">🌟 Максимум пользы</div>
+                        <div class="nutrition-icon">📚</div>
+                        <h4>Полное сопровождение</h4>
+                        <div class="nutrition-price">60 ₽</div>
+                        <p class="nutrition-period">1 месяц</p>
+                        <ul class="nutrition-features">
+                            <li><i class="fas fa-check"></i> Индивидуальный план питания</li>
+                            <li><i class="fas fa-check"></i> Готовое меню на неделю</li>
+                            <li><i class="fas fa-check"></i> Корректировка по результатам</li>
+                            <li><i class="fas fa-check"></i> Рецепты ПП-блюд</li>
+                            <li><i class="fas fa-check"></i> Еженедельный отчёт</li>
+                            <li><i class="fas fa-check"></i> 24/7 поддержка</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="nutrition-bundle">
+                    <div class="bundle-content">
+                        <i class="fas fa-gem"></i>
+                        <div>
+                            <h4>Комплекс «Фитнес + Питание»</h4>
+                            <p>Абонемент в тренажёрный зал (8 посещений) + месячный план питания</p>
+                            <span class="bundle-price">150 ₽</span>
+                            <span class="bundle-old">190 ₽</span>
+                            <span class="bundle-save">Экономия 40 ₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ⏰ РЕЖИМ РАБОТЫ -->
+            <div class="working-hours-block">
+                <div class="hours-header">
+                    <i class="fas fa-clock"></i>
+                    <h3>Режим работы</h3>
+                </div>
+                
+                <div class="hours-grid-detailed">
+                    <div class="hours-day">
+                        <span class="day-name">Понедельник — Пятница</span>
+                        <div class="day-schedule">
+                            <span class="time-slot">09:00 — 12:00</span>
+                            <span class="time-slot">17:00 — 21:00</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hours-day">
+                        <span class="day-name">Суббота</span>
+                        <div class="day-schedule">
+                            <span class="time-slot">10:00 — 13:00</span>
+                            <span class="time-slot">17:00 — 21:00</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hours-day">
+                        <span class="day-name">Воскресенье</span>
+                        <div class="day-schedule">
+                            <span class="time-slot holiday">Выходной</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hours-note">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Абонементы действуют в часы работы клуба</span>
+                </div>
+            </div>
+
+            <!-- 💎 ИТОГОВЫЙ БЛОК -->
+            <div class="pricing-footer">
+                <div class="guarantee-badge">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Прозрачные цены без скрытых платежей</span>
+                </div>
+                <div class="payment-methods">
+                    <span>Принимаем к оплате:</span>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fas fa-money-bill-wave"></i>
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📞 КОНТАКТЫ -->
+    <section id="contacts" class="contact-gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">свяжитесь с нами</span>
+                <h2 class="section-title">Контакты Star Fit</h2>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon-wrapper">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Тренажёрный зал</h3>
+                    <p class="contact-desc">Пауэрлифтинг, бодибилдинг, индивидуальные тренировки</p>
+                    <a href="tel:+375296344664" class="contact-phone">+375 (29) 634-46-64</a>
+                    <div class="contact-trainer">Владимир Лукьянов</div>
+                </div>
+                
+                <div class="contact-card featured">
+                    <div class="contact-icon-wrapper">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Групповой фитнес</h3>
+                    <p class="contact-desc">Zumba, стретчинг, йога, фитнес для всей семьи</p>
+                    <a href="tel:+375296167445" class="contact-phone">+375 (29) 616-74-45</a>
+                    <div class="contact-trainer">Яна & Татьяна</div>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon-wrapper">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Адрес</h3>
+                    <p class="contact-desc">Светлогорск, ул. 50 лет Октября, 2Б</p>
+                    <div class="contact-social-group">
+                        <a href="https://www.instagram.com/starfit_svt" target="_blank" class="social-btn">
+                            <i class="fab fa-instagram"></i> @starfit_svt
+                        </a>
+                        <a href="https://t.me/starfit_svt" target="_blank" class="social-btn">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="viber://chat?number=%2B375296344664" target="_blank" class="social-btn">
+                            <i class="fab fa-viber"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📝 ФОРМА ЗАПИСИ -->
+    <section id="booking" class="booking-section">
+        <div class="container">
+            <div class="booking-container">
+                <div class="booking-header">
+                    <span class="booking-subtitle">запись</span>
+                    <h2 class="booking-title">Начните тренировку</h2>
+                    <p class="booking-description">
+                        Оставьте заявку — мы подберём удобное время и ответим на все вопросы
+                    </p>
+                </div>
+                
+                <form id="bookingForm" class="booking-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" name="name" placeholder="Анна" required>
+                            <i class="fas fa-user input-icon"></i>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+375 (29) XXX-XX-XX" required>
+                            <i class="fas fa-phone input-icon"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="trainer-select">Выберите тренера</label>
+                        <div class="custom-select">
+                            <select id="trainer-select" name="trainer" required>
+                                <option value="" disabled selected>— Пожалуйста, выберите —</option>
+                                <option value="vladimir">Владимир Лукьянов (пауэрлифтинг)</option>
+                                <option value="yana">Яна Лукьянова (фитнес, трансформация)</option>
+                                <option value="tatiana">Татьяна Лукьянова (групповой фитнес)</option>
+                            </select>
+                            <i class="fas fa-chevron-down select-arrow"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="comment">Комментарий (пожелания по времени)</label>
+                        <textarea id="comment" name="comment" rows="3" placeholder="Например: удобно после 18:00"></textarea>
+                    </div>
+                    
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="agree" required>
+                        <label for="agree">
+                            Я согласен на обработку персональных данных
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="btn-submit">
+                        <span>Отправить заявку</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+                
+                <div id="bookingSuccess" class="booking-success" style="display: none;">
+                    <div class="success-icon">⭐</div>
+                    <h3>Спасибо за заявку!</h3>
+                    <p>Мы свяжемся с вами в ближайшее время</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🕊️ ФУТЕР -->
+    <footer class="elegant-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span class="logo-star">⭐</span>
+                        <span class="logo-text">Star Fit</span>
+                    </div>
+                    <p class="footer-tagline">
+                        Фитнес-клуб, где чемпионы мира тренируют с душой. 
+                        Светлогорск, ул. 50 лет Октября, 2Б.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/starfit_svt" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://t.me/starfit_svt" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="viber://chat?number=%2B375296344664" target="_blank">
+                            <i class="fab fa-viber"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-contacts">
+                    <h4>Контакты</h4>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-dumbbell"></i>
+                        <div>
+                            <span>Тренажёрный зал</span>
+                            <a href="tel:+375296344664">+375 (29) 634-46-64</a>
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-heart"></i>
+                        <div>
+                            <span>Групповой фитнес</span>
+                            <a href="tel:+375296167445">+375 (29) 616-74-45</a>
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <span>Адрес</span>
+                            <p>ул. 50 лет Октября, 2Б</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-hours">
+                    <h4>Часы работы</h4>
+                    <div class="hours-detailed">
+                        <div class="hours-row">
+                            <span>Пн-Пт</span>
+                            <span class="hours-time">09:00-12:00 / 17:00-21:00</span>
+                        </div>
+                        <div class="hours-row">
+                            <span>Суббота</span>
+                            <span class="hours-time">10:00-13:00 / 17:00-21:00</span>
+                        </div>
+                        <div class="hours-row holiday">
+                            <span>Воскресенье</span>
+                            <span class="hours-tag">Выходной</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    © 2026 Star Fit. Все права защищены.
+                </div>
+                <div class="footer-instagram">
+                    <a href="https://www.instagram.com/starfit_svt" target="_blank">
+                        <i class="fab fa-instagram"></i> @starfit_svt
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Кнопка наверх -->
+    <button id="scrollTop" class="scroll-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="upload.js"></script>
+</body>
+</html>
