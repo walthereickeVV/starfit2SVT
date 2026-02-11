@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes">
+    <title>Star Fit • Космический фитнес</title>
+    <meta name="description" content="Star Fit Светлогорск. Тренировки с чемпионами мира. Неоновый фитнес-клуб будущего.">
+    
+    <!-- Open Graph / Instagram -->
+    <meta property="og:title" content="Star Fit • Космический фитнес">
+    <meta property="og:description" content="Тренируйся с чемпионами мира в неоновом пространстве">
+    <meta property="og:image" content="assets/logo/og-neon.jpg">
+    <meta property="og:url" content="https://star-fit.space">
+    <meta property="og:type" content="website">
+    
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 💪 ГАНТЕЛЬ-ПРЕЛОАДЕР (КОСМИЧЕСКАЯ ЗАГРУЗКА) -->
+    <div class="cosmic-preloader" id="preloader">
+        <div class="dumbbell-container">
+            <div class="dumbbell">
+                <div class="weight left"></div>
+                <div class="bar"></div>
+                <div class="weight right"></div>
+            </div>
+            <div class="dumbbell-glow"></div>
+        </div>
+        <div class="preloader-text">
+            <span>★</span> STAR FIT <span>★</span>
+        </div>
+        <div class="preloader-sub">ЗАГРУЗКА КОСМИЧЕСКОЙ ЭНЕРГИИ</div>
+    </div>
+
+    <!-- 🌠 НЕОНОВЫЙ ФОН С ПАРТИКЛАМИ -->
+    <div class="neon-bg">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="nebula"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- ⚡ БОКОВОЕ МЕНЮ КИБЕРПАНК -->
+    <div class="cyber-sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="neon-logo">⭐ STAR FIT</div>
+            <button class="sidebar-close" id="sidebarClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="sidebar-menu">
+            <a href="#hero" class="cyber-item">
+                <span class="cyber-icon"><i class="fas fa-home"></i></span>
+                <span class="cyber-text">Главная</span>
+                <span class="cyber-glitch"></span>
+            </a>
+            <a href="#trainers" class="cyber-item">
+                <span class="cyber-icon"><i class="fas fa-users"></i></span>
+                <span class="cyber-text">Чемпионы</span>
+                <span class="cyber-glitch"></span>
+            </a>
+            <a href="#contacts" class="cyber-item">
+                <span class="cyber-icon"><i class="fas fa-map-marker-alt"></i></span>
+                <span class="cyber-text">Контакты</span>
+                <span class="cyber-glitch"></span>
+            </a>
+            <a href="#booking" class="cyber-item">
+                <span class="cyber-icon"><i class="fas fa-edit"></i></span>
+                <span class="cyber-text">Запись</span>
+                <span class="cyber-glitch"></span>
+            </a>
+        </div>
+        <div class="sidebar-social">
+            <a href="https://www.instagram.com/starfit_svt" target="_blank" class="neon-link">
+                <i class="fab fa-instagram"></i>
+                <span class="link-glow"></span>
+            </a>
+            <a href="https://t.me/starfit_svt" target="_blank" class="neon-link">
+                <i class="fab fa-telegram"></i>
+                <span class="link-glow"></span>
+            </a>
+            <a href="viber://chat?number=%2B375296344664" target="_blank" class="neon-link">
+                <i class="fab fa-viber"></i>
+                <span class="link-glow"></span>
+            </a>
+        </div>
+        <div class="sidebar-footer">
+            <div class="cyber-line"></div>
+            <span class="neon-small">v2.0.1 • КОСМОС</span>
+        </div>
+    </div>
+
+    <!-- 🚀 ХЕДЕР С НЕОНОМ -->
+    <header class="cyber-header">
+        <div class="header-container">
+            <button class="hologram-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+                <div class="btn-glow"></div>
+            </button>
+            
+            <div class="hologram-logo">
+                <span class="logo-star">⭐</span>
+                <span class="logo-text">STAR FIT</span>
+                <div class="logo-scanline"></div>
+            </div>
+            
+            <a href="https://www.instagram.com/starfit_svt" target="_blank" class="neon-instagram">
+                <i class="fab fa-instagram"></i>
+                <span>@starfit_svt</span>
+                <div class="insta-pulse"></div>
+            </a>
+        </div>
+        <div class="header-glow"></div>
+    </header>
+
+    <!-- 🌟 HERO СЕКЦИЯ - КИБЕРПАНК АРЕНА -->
+    <section id="hero" class="cyber-arena">
+        <div class="arena-backdrop">
+            <div class="light-grid"></div>
+            <div class="scanlines"></div>
+        </div>
+        <div class="arena-content">
+            <div class="power-badge">
+                <span class="badge-icon">⚡</span>
+                <span class="badge-text">ЧЕМПИОНЫ МИРА В ТВОЁМ ГОРОДЕ</span>
+                <span class="badge-icon">⚡</span>
+            </div>
+            
+            <h1 class="glitch-title">
+                <span class="glitch-layer" data-text="ЛУКЬЯНОВЫ">ЛУКЬЯНОВЫ</span>
+                <span class="glitch-layer" data-text="VS ГРАВИТАЦИЯ">VS ГРАВИТАЦИЯ</span>
+            </h1>
+            
+            <div class="cyber-stats">
+                <div class="stat-block">
+                    <div class="stat-neon">15+</div>
+                    <div class="stat-label">ЛЕТ В КОСМОСЕ</div>
+                </div>
+                <div class="stat-divider">⏺</div>
+                <div class="stat-block">
+                    <div class="stat-neon">50+</div>
+                    <div class="stat-label">ЧЕМПИОНОВ</div>
+                </div>
+                <div class="stat-divider">⏺</div>
+                <div class="stat-block">
+                    <div class="stat-neon">3</div>
+                    <div class="stat-label">ЛЕГЕНДЫ</div>
+                </div>
+            </div>
+
+            <div class="arena-buttons">
+                <a href="#booking" class="neon-button primary">
+                    <span>ЗАПИСАТЬСЯ</span>
+                    <i class="fas fa-arrow-right"></i>
+                    <div class="button-glow"></div>
+                </a>
+                <a href="#trainers" class="neon-button outline">
+                    <span>ТРЕНЕРЫ</span>
+                    <i class="fas fa-chevron-down"></i>
+                    <div class="button-glow"></div>
+                </a>
+            </div>
+        </div>
+        <div class="energy-field"></div>
+    </section>
+
+    <!-- 🏆 ТРЕНЕРЫ - ГОЛОГРАФИЧЕСКИЕ КАРТЫ -->
+    <section id="trainers" class="holographic-section">
+        <div class="container">
+            <div class="section-header neon-header">
+                <span class="section-tag">✦ ЭЛИТНЫЙ ОТРЯД ✦</span>
+                <h2 class="section-title-cyber">
+                    <span class="neon-text">ЧЕМПИОНЫ</span>
+                    <span class="neon-text-secondary">МИРА</span>
+                </h2>
+                <div class="header-beam"></div>
+            </div>
+
+            <div class="hologram-grid" id="trainersGrid">
+                <!-- ВЛАДИМИР ЛУКЬЯНОВ - КИБЕР-ТЕРМИНАТОР -->
+                <div class="hologram-card" data-trainer="vladimir">
+                    <div class="card-glow"></div>
+                    <div class="card-hologram">
+                        <div class="hologram-image" id="trainer-image-vladimir">
+                            <div class="image-placeholder cyber-placeholder">
+                                <span class="placeholder-icon">🏆</span>
+                                <span class="placeholder-text">МСМК</span>
+                                <div class="scan-effect"></div>
+                            </div>
+                            <div class="upload-zone" data-trainer="vladimir">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <span>ЗАГРУЗИТЬ ФОТО</span>
+                                <input type="file" accept="image/*" class="hidden-input" id="upload-vladimir">
+                            </div>
+                        </div>
+                        
+                        <div class="hologram-info">
+                            <div class="rank-badge">
+                                <span class="rank-icon">👑</span>
+                                <span class="rank-text">МСМК • ЧЕМПИОН МИРА</span>
+                            </div>
+                            
+                            <h3 class="cyber-name">ВЛАДИМИР ЛУКЬЯНОВ</h3>
+                            <div class="cyber-title">ПАУЭРЛИФТИНГ • ТРЕНЕР ВЫСШЕЙ КАТЕГОРИИ</div>
+                            
+                            <div class="achievement-grid">
+                                <div class="achieve-item">
+                                    <span class="achieve-icon">🌍</span>
+                                    <span class="achieve-text">Чемпион Мира</span>
+                                </div>
+                                <div class="achieve-item">
+                                    <span class="achieve-icon">🇪🇺</span>
+                                    <span class="achieve-text">Чемпион Европы</span>
+                                </div>
+                                <div class="achieve-item">
+                                    <span class="achieve-icon">🌏</span>
+                                    <span class="achieve-text">Чемпион Евразии</span>
+                                </div>
+                                <div class="achieve-item">
+                                    <span class="achieve-icon">🇧🇾</span>
+                                    <span class="achieve-text">Чемпион РБ (x7)</span>
+                                </div>
+                            </div>
+
+                            <div class="power-stats">
+                                <div class="power-bar">
+                                    <div class="power-label">ЖИМ ЛЁЖА</div>
+                                    <div class="bar-container">
+                                        <div class="bar-fill" style="width: 100%"></div>
+                                        <span class="bar-value">265 КГ</span>
+                                    </div>
+                                </div>
+                                <div class="power-bar">
+                                    <div class="power-label">ПРИСЕД</div>
+                                    <div class="bar-container">
+                                        <div class="bar-fill" style="width: 100%"></div>
+                                        <span class="bar-value">320 КГ</span>
+                                    </div>
+                                </div>
+                                <div class="power-bar">
+                                    <div class="power-label">ТЯГА</div>
+                                    <div class="bar-container">
+                                        <div class="bar-fill" style="width: 100%"></div>
+                                        <span class="bar-value">340 КГ</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <ul class="cyber-features">
+                                <li><i class="fas fa-shield-alt"></i> Международный Мастер Спорта</li>
+                                <li><i class="fas fa-gavel"></i> Судья Национальной категории</li>
+                                <li><i class="fas fa-trophy"></i> Подготовил 10+ МС</li>
+                            </ul>
+
+                            <a href="#booking" class="cyber-button" data-trainer="vladimir">
+                                <span>ЗАПИСАТЬСЯ К ЧЕМПИОНУ</span>
+                                <i class="fas fa-bolt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ЯНА ЛУКЬЯНОВА - НЕОНОВАЯ БОГИНЯ -->
+                <div class="hologram-card" data-trainer="yana">
+                    <div class="card-glow pink"></div>
+                    <div class="card-hologram">
+                        <div class="hologram-image" id="trainer-image-yana">
+                            <div class="image-placeholder cyber-placeholder pink">
+                                <span class="placeholder-icon">💫</span>
+                                <span class="placeholder-text">ФИТНЕС-ТРАНСФОРМАЦИЯ</span>
+                                <div class="scan-effect"></div>
+                            </div>
+                            <div class="upload-zone" data-trainer="yana">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <span>ЗАГРУЗИТЬ ФОТО</span>
+                                <input type="file" accept="image/*" class="hidden-input" id="upload-yana">
+                            </div>
+                        </div>
+                        
+                        <div class="hologram-info">
+                            <div class="rank-badge pink">
+                                <span class="rank-icon">⚡</span>
+                                <span class="rank-text">ТРАНСФОРМАЦИЯ ТЕЛА</span>
+                            </div>
+                            
+                            <h3 class="cyber-name pink">ЯНА ЛУКЬЯНОВА</h3>
+                            <div class="cyber-title pink">ПЕРСОНАЛЬНЫЙ ФИТНЕС • НУТРИЦИОЛОГ</div>
+                            
+                            <div class="transformation-stats">
+                                <div class="transform-card">
+                                    <span class="transform-number">-30 КГ</span>
+                                    <span class="transform-label">ЗА 6 МЕСЯЦЕВ</span>
+                                </div>
+                                <div class="transform-card">
+                                    <span class="transform-number">100+</span>
+                                    <span class="transform-label">СЧАСТЛИВЫХ КЛИЕНТОК</span>
+                                </div>
+                            </div>
+
+                            <div class="testimonial-neon">
+                                <i class="fas fa-quote-right"></i>
+                                <p>"Яна не просто тренер. Она меняет отношение к себе. После родов я думала, что спорт не для меня. А теперь я не могу без зала!"</p>
+                                <span class="testimonial-author">— Елена, 34 года</span>
+                            </div>
+
+                            <ul class="cyber-features pink">
+                                <li><i class="fas fa-heart"></i> Восстановление после родов</li>
+                                <li><i class="fas fa-brain"></i> Психология питания</li>
+                                <li><i class="fas fa-clock"></i> Экспресс-тренировки 20 мин</li>
+                                <li><i class="fas fa-crown"></i> Без жёстких диет</li>
+                            </ul>
+
+                            <a href="#booking" class="cyber-button pink" data-trainer="yana">
+                                <span>ХОЧУ К ЯНЕ!</span>
+                                <i class="fas fa-sparkles"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ТАТЬЯНА ЛУКЬЯНОВА - КОСМИЧЕСКАЯ ЭНЕРГИЯ -->
+                <div class="hologram-card" data-trainer="tatiana">
+                    <div class="card-glow blue"></div>
+                    <div class="card-hologram">
+                        <div class="hologram-image" id="trainer-image-tatiana">
+                            <div class="image-placeholder cyber-placeholder blue">
+                                <span class="placeholder-icon">✨</span>
+                                <span class="placeholder-text">ГРУППОВАЯ ЭНЕРГИЯ</span>
+                                <div class="scan-effect"></div>
+                            </div>
+                            <div class="upload-zone" data-trainer="tatiana">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <span>ЗАГРУЗИТЬ ФОТО</span>
+                                <input type="file" accept="image/*" class="hidden-input" id="upload-tatiana">
+                            </div>
+                        </div>
+                        
+                        <div class="hologram-info">
+                            <div class="rank-badge blue">
+                                <span class="rank-icon">🎵</span>
+                                <span class="rank-text">ГРУППОВЫЕ ПРОГРАММЫ</span>
+                            </div>
+                            
+                            <h3 class="cyber-name blue">ТАТЬЯНА ЛУКЬЯНОВА</h3>
+                            <div class="cyber-title blue">ФИТНЕС-НУТРИЦИОЛОГ • СТРЕТЧИНГ</div>
+                            
+                            <div class="energy-meter">
+                                <div class="meter-label">ЭНЕРГИЯ ТРЕНИРОВКИ</div>
+                                <div class="meter-bar">
+                                    <div class="meter-fill" style="width: 100%"></div>
+                                    <span class="meter-value">MAX</span>
+                                </div>
+                            </div>
+
+                            <div class="group-classes">
+                                <span class="class-tag">ZUMBA</span>
+                                <span class="class-tag">STEP</span>
+                                <span class="class-tag">STRETCH</span>
+                                <span class="class-tag">PILATES</span>
+                                <span class="class-tag">BODY SCULPT</span>
+                            </div>
+
+                            <div class="testimonial-neon blue">
+                                <i class="fas fa-quote-right"></i>
+                                <p>"Татьяна заряжает так, что после тренировки летишь домой на крыльях. Привела мужа и дочь — теперь ходим всей семьёй!"</p>
+                                <span class="testimonial-author">— Андрей, 42 года</span>
+                            </div>
+
+                            <ul class="cyber-features blue">
+                                <li><i class="fas fa-spine"></i> Здоровье позвоночника</li>
+                                <li><i class="fas fa-apple-alt"></i> Индивидуальный план питания</li>
+                                <li><i class="fas fa-family"></i> Семейные тренировки</li>
+                                <li><i class="fas fa-music"></i> Тренировки под DJ-сеты</li>
+                            </ul>
+
+                            <a href="#booking" class="cyber-button blue" data-trainer="tatiana">
+                                <span>ЗАПИСАТЬСЯ К ТАТЬЯНЕ</span>
+                                <i class="fas fa-waveform"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📞 КОНТАКТЫ - НЕОНОВЫЙ ХАБ -->
+    <section id="contacts" class="neon-hub">
+        <div class="container">
+            <div class="hub-header">
+                <span class="hub-tag">✦ СВЯЗЬ С КОСМОСОМ ✦</span>
+                <h2 class="hub-title">КОНТАКТНЫЕ ДАННЫЕ</h2>
+            </div>
+
+            <div class="hub-grid">
+                <div class="hub-card powerlifting">
+                    <div class="card-hologram">
+                        <div class="hub-icon">
+                            <i class="fas fa-dumbbell"></i>
+                            <div class="icon-pulse"></div>
+                        </div>
+                        <h3>ТРЕНАЖЁРНЫЙ ЗАЛ</h3>
+                        <div class="hub-frequency">ЧАСТОТА: 634-46-64</div>
+                        <a href="tel:+375296344664" class="hub-number">
+                            +375(29)634-46-64
+                        </a>
+                        <div class="hub-manager">Владимир Лукьянов</div>
+                        <div class="signal-strength">
+                            <span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hub-card fitness">
+                    <div class="card-hologram">
+                        <div class="hub-icon">
+                            <i class="fas fa-heart"></i>
+                            <div class="icon-pulse pink"></div>
+                        </div>
+                        <h3>ГРУППОВОЙ ФИТНЕС</h3>
+                        <div class="hub-frequency">ЧАСТОТА: 616-74-45</div>
+                        <a href="tel:+375296167445" class="hub-number">
+                            +375(29)616-74-45
+                        </a>
+                        <div class="hub-manager">Яна / Татьяна</div>
+                        <div class="signal-strength">
+                            <span class="active"></span><span class="active"></span><span class="active"></span><span class="active"></span><span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hub-card location">
+                    <div class="card-hologram">
+                        <div class="hub-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="icon-pulse blue"></div>
+                        </div>
+                        <h3>КООРДИНАТЫ</h3>
+                        <div class="hub-frequency">СВЕТЛОГОРСК</div>
+                        <div class="hub-address">
+                            ул. 50 лет Октября, 2Б
+                        </div>
+                        <div class="social-frequency">
+                            <a href="https://www.instagram.com/starfit_svt" target="_blank" class="freq-link">
+                                <i class="fab fa-instagram"></i> @starfit_svt
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📝 ЗАПИСЬ - КВАНТОВЫЙ ТЕРМИНАЛ -->
+    <section id="booking" class="quantum-terminal">
+        <div class="container">
+            <div class="terminal-container">
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <span class="terminal-path">STAR_FIT://ЗАПИСЬ/</span>
+                </div>
+                
+                <div class="terminal-body">
+                    <div class="terminal-prompt">
+                        <span class="prompt-sign">$></span>
+                        <span class="prompt-text">ИНИЦИАЛИЗАЦИЯ_ЗАПИСИ</span>
+                    </div>
+
+                    <form id="quantumForm" class="quantum-form">
+                        <div class="form-matrix">
+                            <div class="matrix-field">
+                                <label class="matrix-label">[ИМЯ_КЛИЕНТА]</label>
+                                <div class="matrix-input">
+                                    <span class="input-prefix">></span>
+                                    <input type="text" id="name" name="name" placeholder="ВВЕДИТЕ ИМЯ" required>
+                                    <div class="input-scanline"></div>
+                                </div>
+                            </div>
+
+                            <div class="matrix-field">
+                                <label class="matrix-label">[КОНТАКТ_ЧАСТОТА]</label>
+                                <div class="matrix-input">
+                                    <span class="input-prefix">📱</span>
+                                    <input type="tel" id="phone" name="phone" placeholder="+375 (29) XXX-XX-XX" required>
+                                    <div class="input-scanline"></div>
+                                </div>
+                            </div>
+
+                            <div class="matrix-field">
+                                <label class="matrix-label">[ВЫБОР_ТРЕНЕРА]</label>
+                                <div class="matrix-select">
+                                    <select id="trainer-select" name="trainer" required>
+                                        <option value="" disabled selected>── ВЫБЕРИТЕ ТРЕНЕРА ──</option>
+                                        <option value="vladimir">ВЛАДИМИР ЛУКЬЯНОВ (ПАУЭРЛИФТИНГ)</option>
+                                        <option value="yana">ЯНА ЛУКЬЯНОВА (ФИТНЕС)</option>
+                                        <option value="tatiana">ТАТЬЯНА ЛУКЬЯНОВА (ГРУППОВОЙ)</option>
+                                    </select>
+                                    <div class="select-glow"></div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="quantum-submit">
+                                <span>ОТПРАВИТЬ СИГНАЛ</span>
+                                <i class="fas fa-rocket"></i>
+                                <div class="submit-glow"></div>
+                            </button>
+                        </div>
+                    </form>
+
+                    <div id="quantumSuccess" class="quantum-success" style="display: none;">
+                        <div class="success-hologram">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3>СИГНАЛ ПРИНЯТ!</h3>
+                        <p>Мы свяжемся с вами в ближайшее время</p>
+                        <div class="success-frequency">📡 ЧАСТОТА: СТАБИЛЬНА</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🛸 ФУТЕР - КОСМИЧЕСКАЯ СТАНЦИЯ -->
+    <footer class="space-station">
+        <div class="station-grid">
+            <div class="station-module">
+                <div class="station-logo">
+                    <span class="logo-glow">⭐</span>
+                    <span class="logo-neon">STAR FIT</span>
+                </div>
+                <div class="station-signal">
+                    <span class="signal-dot"></span>
+                    <span class="signal-text">ONLINE 24/7</span>
+                </div>
+            </div>
+
+            <div class="station-module">
+                <h4>КОММУНИКАЦИИ</h4>
+                <div class="com-channels">
+                    <div class="channel">
+                        <span class="channel-icon">🏋️</span>
+                        <a href="tel:+375296344664" class="channel-link">+375(29)634-46-64</a>
+                    </div>
+                    <div class="channel">
+                        <span class="channel-icon">💃</span>
+                        <a href="tel:+375296167445" class="channel-link">+375(29)616-74-45</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="station-module">
+                <h4>НАВИГАЦИЯ</h4>
+                <div class="nav-beacons">
+                    <a href="https://www.instagram.com/starfit_svt" target="_blank" class="beacon">
+                        <i class="fab fa-instagram"></i> INSTAGRAM
+                    </a>
+                    <a href="https://t.me/starfit_svt" target="_blank" class="beacon">
+                        <i class="fab fa-telegram"></i> TELEGRAM
+                    </a>
+                    <a href="viber://chat?number=%2B375296344664" target="_blank" class="beacon">
+                        <i class="fab fa-viber"></i> VIBER
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="station-bottom">
+            <div class="copyright-neon">
+                © 2026 STAR FIT • КОСМИЧЕСКАЯ ФИТНЕС-СТАНЦИЯ
+            </div>
+            <div class="station-coords">
+                СВЕТЛОГОРСК • 50 ЛЕТ ОКТЯБРЯ 2Б
+            </div>
+        </div>
+    </footer>
+
+    <!-- Кнопка наверх -->
+    <button id="spaceJump" class="space-jump">
+        <i class="fas fa-rocket"></i>
+        <div class="jump-glow"></div>
+    </button>
+
+    <script src="script.js"></script>
+    <script src="upload.js"></script>
+</body>
+</html>
